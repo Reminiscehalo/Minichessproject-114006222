@@ -261,6 +261,12 @@ after each completed depth and honoring `depth` / `movetime` / `stop` limits.
 
 ---
 
+## Search Algorithms
+- Minimax
+- AlphaBeta
+- PVS
+- Quiescence
+
 ## Evaluation
 
 `evaluate()` returns a score from the side-to-move's perspective. A won
@@ -354,6 +360,9 @@ a2a3     move from a2 to a3
 e1d2     move from e1 to d2
 b2b1q    pawn promotion to queen
 ```
+## Final Submission
+
+The registry has been modified to use the submission algorithm for grading instead of the Minimax file.
 
 ### Example session
 
